@@ -84,7 +84,7 @@ header{
 
 .btn{
   display:inline-block;
-  opacity:0.7;
+  opacity:0.8;
   font-size:35px;
   color:white;
   padding:5px;
@@ -158,8 +158,24 @@ header{
 /* コンテンツここまで */
 
 .message-wrapper{
-  padding:80px 0 200px 0;
+  padding:80px 0 150px 0;
   text-align:center;
+}
+
+.otanoshimi{
+  color:white;
+  background-color:#5dca88;
+  margin-top:40px;
+  padding:10px;
+  font-size:40px;
+  box-shadow:0 7px #1a7940;
+  cursor:pointer;
+}
+
+.otanoshimi:active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
 }
 
 footer{
